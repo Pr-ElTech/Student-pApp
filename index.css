@@ -25,6 +25,7 @@ body {
   & h1 {
     & span {
       color: orange;
+      font-size: 25px;
     }
   }
 

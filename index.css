@@ -30,7 +30,15 @@ body{
             color: orange;
         }
     }
+& ul{
+    list-style-type:  none;
+    gap: 50px;
+    display: flex;
 
+    & li{
+            cursor: pointer;
+    }
+}
     & button{
         width: 100px;
         height: 35px;
